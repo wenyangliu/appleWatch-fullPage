@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "微软雅黑";
+}
+.section {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+/*第一屏样式*/
+.section1 {
+	padding-top: 100px;
+	color: #fff;
+	background: url(../img/hero_sunset_large_2x.jpg) no-repeat;
+	background-size: cover;
+}
+.section1 h1 {
+	font-size: 50px;
+	font-weight: normal;
+}
+.section1 p {
+	font-size: 18px;
+	width: 60%;
+	line-height: 30px;
+	margin: 800px auto 0;
+}
+.section1 a {
+	display: block;
+	color: #ff9000;
+	font-size: 18px;
+	margin: 5% auto 0;
+}
+/*第二屏样式*/
+.section2 {
+	background: url(../img/technology_hero_large_2x.jpg) no-repeat bottom #f2f2f2;
+	background-size: 100%;
+}
+.section2 h1 {
+	margin: 20px auto;
+	font-weight: normal;
+	font-size: 50px;
+}
+.section2 a {
+	font-size: 18px;
+	color: #08c;
+}
+/*第三屏样式*/
+.section3 {
+	background: url(../img/timekeeping_hero_large_2x.jpg) no-repeat center 300px;
+	background-size: 50%; 
+}
+.section3 h1 {
+	font-weight: normal;
+	font-size: 40px;
+	margin: 20px auto 20px -1500px;
+	width: 60%;
+}
+.section3 p {
+	font-size: 18px;
+	width: 60%;
+	line-height: 30px;
+	margin: 20px auto 20px 1500px;
+}
+.section3 a{
+	display: block;
+	margin: 20px auto 0;
+	color: #08c;
+	font-size: 18px;
+}
+/*第四屏样式*/
+.section4 h1 {
+	font-weight: normal;
+	font-size: 40px;
+	margin: 30px auto;
+}
+.section4 .column img {
+	height: 300px;
+	margin-top: 30px;
+}
+.section4 .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.section4 .column {
+	background: #f2f2f2;
+	padding-bottom: 30px;
+	margin: 10px;
+}
+.section4 .column h4 {
+	margin: 20px auto;
+}
+.section4 .column p {
+	width: 90%;
+	margin: 20px auto;
+	line-height: 30px;
+}
+.section4 .column h4.primary {
+	width: 102px;
+	height: 22px;
+	background: url(../img/logo_collection_primary.svg);
+}
+.section4 .column h4.sport {
+	width: 178px;
+	height: 22px;
+	background: url(../img/logo_collection_sport.svg);
+}
+.section4 .column h4.edition {
+	width: 190px;
+	height: 22px;
+	background: url(../img/logo_collection_edition.svg);
+}
+.section4 .column a{
+	display: block;
+	margin: 10px auto 0;
+	color: #08c;
+}
